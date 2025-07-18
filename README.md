@@ -152,14 +152,6 @@ gcloud organizations add-iam-policy-binding $ORG_ID \
 - **Architecture Review** - Network topology and service dependencies
 - **Migration Planning** - Complete inventory for cloud migrations
 
-## 📈 Performance
-
-| Organization Size | Duration | Output Size | Memory Usage |
-|------------------|----------|-------------|--------------|
-| Small (< 100 projects) | 30-60 min | 10-50 MB | ~500MB RAM |
-| Medium (100-500 projects) | 1-3 hours | 50-200 MB | ~1-2GB RAM |
-| Large (500+ projects) | 3+ hours | 200+ MB | ~2-4GB RAM |
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
@@ -176,9 +168,6 @@ python3 validate_org_setup.py
 python3 gcp_master_assessment.py --project-ids test-project
 ```
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
@@ -186,10 +175,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Discussions**: [GitHub Discussions](https://github.com/anandynwa/gcp-assessment-suite/discussions)
 - **Documentation**: Check the [docs/](docs/) directory
 
-## ⭐ Star History
-
-If this project helps you, please consider giving it a star! ⭐
-
----
 
 **Ready to assess your GCP environment?** Start with `python3 validate_org_setup.py` then run your first assessment!
